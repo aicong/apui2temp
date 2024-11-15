@@ -58,8 +58,8 @@ const promptsOptions = [
 const options = commandLineArgs(optionDefinitions);
 
 const remoteList = {
-  1: 'https://gitee.com/geeksdidi/kittyui.git',
-  2: 'https://github.com/qddidi/apui2.git'
+  1: 'https://github.com/aicong/apui2temp',
+  2: 'https://github.com/aicong/apui2temp'
 };
 const getUserInfo = async () => {
   const res = await prompts(promptsOptions);
