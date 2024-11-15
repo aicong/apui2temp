@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:apui2": "gulp -f packages/components/script/build/index.ts",
-    "publish:apui2": "gulp -f packages/components/script/publish/index.ts"
+    "publish:apui2": "gulp -f packages/components/script/publish/index.ts",
+    "apui2:dev": "pnpm run --filter ./play dev"
   },
   "keywords": [],
   "author": "",

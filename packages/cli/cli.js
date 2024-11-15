@@ -1,8 +1,6 @@
 import commandLineArgs from 'command-line-args';
 import commandLineUsage from 'command-line-usage';
-// 项目拉取
 import gitClone from './utils/gitClone.js';
-// 交互式命令
 import prompts from 'prompts';
 import { readFile } from 'fs/promises';
 
@@ -58,8 +56,8 @@ const promptsOptions = [
 const options = commandLineArgs(optionDefinitions);
 
 const remoteList = {
-  1: 'https://github.com/aicong/apui2temp',
-  2: 'https://github.com/aicong/apui2temp'
+  1: 'https://gitee.com/geeksdidi/kittyui.git',
+  2: "https://github.com/aicong/apui2temp"
 };
 const getUserInfo = async () => {
   const res = await prompts(promptsOptions);
